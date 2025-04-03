@@ -1,7 +1,7 @@
 const { MODEL_MAP } = require("../modelMap");
 
 // Google Gemini API , list models : https://generativelanguage.googleapis.com/(v1|v1beta)/models?key=$(APIKey)
-// 20250330 update
+// 20250403 update
 
 const stableModels = [
   "gemini-1.0-pro-vision-latest",
@@ -41,6 +41,9 @@ const experimentalModels = [
   "gemini-2.0-flash-thinking-exp",
   "gemini-2.0-flash-thinking-exp-1219",
   "learnlm-1.5-pro-experimental",
+  "gemma-3-1b-it",
+  "gemma-3-4b-it",
+  "gemma-3-12b-it",
   "gemma-3-27b-it"
 ];
 
@@ -69,6 +72,9 @@ const v1BetaModels = [
   "gemini-2.0-flash-thinking-exp",
   "gemini-2.0-flash-thinking-exp-1219",
   "learnlm-1.5-pro-experimental",
+  "gemma-3-1b-it",
+  "gemma-3-4b-it",
+  "gemma-3-12b-it",
   "gemma-3-27b-it"
 ];
 
